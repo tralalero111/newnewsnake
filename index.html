@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="lv">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Čūskas Spēle</title>
+  <link rel="stylesheet" href="main.css">
+</head>
+<body>
+  <h1>Čūskas Spēle</h1>
+  <div id="scoreboard">Punkti: 0 | Pēdējais rezultāts: 0</div>
+  <canvas id="game" width="400" height="400"></canvas>
+  <div id="game-over">GAME OVER</div>
+  <button id="pause-btn">Pauzēt</button>
+
+  <!-- Mobilās vadības pogas -->
+  <div id="controls">
+    <div class="control-row">
+      <button class="ctrl-btn" id="btn-up">⬆️</button>
+    </div>
+    <div class="control-row">
+      <button class="ctrl-btn" id="btn-left">⬅️</button>
+      <button class="ctrl-btn" id="btn-down">⬇️</button>
+      <button class="ctrl-btn" id="btn-right">➡️</button>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,57 @@
+body {
+  margin: 0;
+  font-family: sans-serif;
+  text-align: center;
+  background-color: #111;
+  color: #fff;
+}
+
+canvas {
+  background-color: #222;
+  display: block;
+  margin: 20px auto;
+}
+
+#scoreboard {
+  font-size: 20px;
+  margin-top: 10px;
+}
+
+#game-over {
+  display: none;
+  font-size: 32px;
+  margin-top: 20px;
+  color: red;
+}
+
+#pause-btn {
+  margin-top: 10px;
+  padding: 10px 20px;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+/* Mobilās pogas */
+#controls {
+  margin-top: 20px;
+}
+
+.control-row {
+  margin: 5px;
+}
+
+.ctrl-btn {
+  padding: 15px 25px;
+  font-size: 24px;
+  margin: 5px;
+  border: none;
+  border-radius: 10px;
+  background-color: #444;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.ctrl-btn:active {
+  background-color: #666;
+}
